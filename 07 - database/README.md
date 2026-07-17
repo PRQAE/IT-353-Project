@@ -1,1 +1,1 @@
-Folder Creation File
+# Task 7 - Design the relational database, including tables, primary keys, foreign keys, appropriate data types, and normalization (up to at least Third Normal Form) [3 marks].

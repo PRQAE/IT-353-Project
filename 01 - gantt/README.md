@@ -1,1 +1,1 @@
-Folder Creation File
+# Task 1 - Develop a Gantt Chart for the project, including major development activities, durations, and dependencies [1.5 marks].

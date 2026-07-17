@@ -1,1 +1,1 @@
-Folder Creation File
+# Task 2 - Select ONE prototyping approach (Evolutionary Prototyping or Throwaway Prototyping). Develop low-fidelity prototypes for 3 main screens of the system and justify why your chosen approach is more appropriate for this project [2 marks].
