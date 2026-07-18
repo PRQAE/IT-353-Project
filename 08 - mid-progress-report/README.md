@@ -33,7 +33,7 @@ Here we should write what is left to finish the project
 
 | Member | Task(s) owned | What they've done so far |
 |---|---|---|
-| Ali | Gantt Chart, Prototyping | |
+| Ali | Gantt Chart, Prototyping | Gantt Chart |
 | Emad | DFDs | |
 | Adel | Use Case Model | |
 | Mohammed | Activity Diagrams | |
