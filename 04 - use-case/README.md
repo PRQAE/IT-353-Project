@@ -12,3 +12,7 @@ An actor represents an external role that interacts with the system to achieve a
 | Student Affairs Officer | Represents the Student Affairs Department by managing categories, approving activities, monitoring participation, generating institutional reports, and verifying activity transcripts. |
 
 The QR code and notification functions are treated as parts of SAMS rather than separate actors because the scenario does not identify independent external systems for them.
+
+**Use Case Diagram**
+
+![image](use-case-diagram.png)
