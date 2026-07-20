@@ -18,3 +18,10 @@ This screen allows students to search and browse available activities. They can 
 
 This screen presents the information students need before making a reservation. It displays the activity schedule, location, eligibility requirements, registration deadline, attendance method, and remaining capacity. When the activity is full, the reservation button can be replaced with a “Join Waiting List” button.
 
+**Screen 3: Organizer Activity Management Dashboard**
+
+![image3](screen3-organizer-dashboard.png)
+
+This screen allows organizers to create and manage activities from one location. They can monitor registration numbers, edit activity information, approve students when approval is required, record attendance, issue certificates, and generate reports.
+
+
