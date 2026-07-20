@@ -25,3 +25,8 @@ This screen presents the information students need before making a reservation. 
 This screen allows organizers to create and manage activities from one location. They can monitor registration numbers, edit activity information, approve students when approval is required, record attendance, issue certificates, and generate reports.
 
 
+**Why Evolutionary Prototyping Is More Appropriate**
+
+Evolutionary prototyping is more suitable than throwaway prototyping because the SAMS prototype can become the foundation of the final system. The functions are closely related, and changes in one area may affect other areas. For example, revising the registration process may also require changes to capacity checks, waiting-list promotion, and notifications.
+
+The approach also supports regular user feedback. Students can evaluate whether activity discovery and registration are simple, while organizers can test whether participant and attendance management meets their needs. Student Affairs staff can later review approval and reporting functions. Each version can therefore become more accurate and usable while preserving the work completed in earlier versions.
