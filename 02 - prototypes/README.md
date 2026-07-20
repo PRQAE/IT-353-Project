@@ -12,3 +12,9 @@ This approach is appropriate because SAMS includes several connected processes, 
 
 This screen allows students to search and browse available activities. They can filter the results by category, campus, or date and select an activity to view its full details. The navigation bar also provides access to reservations, notifications, and participation history.
 
+**Screen 2: Activity Details and Reservation**
+
+![image2](screen2-activity-details-reservation.png)
+
+This screen presents the information students need before making a reservation. It displays the activity schedule, location, eligibility requirements, registration deadline, attendance method, and remaining capacity. When the activity is full, the reservation button can be replaced with a “Join Waiting List” button.
+
