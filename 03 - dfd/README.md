@@ -15,3 +15,12 @@ The Student Affairs Department manages categories, approves activities, requests
 
 ![image1](level0-dfd.png)
 
+**Level-1 DFD**
+
+**Process 1.0: Manage Activities**
+
+This process explains how activities are created and made available to students. The Activity Organizer enters the activity details through Process 1.1, including the title, description, location, and other basic information. Process 1.2 adds the schedule, participant limit, registration period, eligibility rules, and attendance method. The activity information is then stored in the Activities data store.
+
+Process 1.3 submits the activity to the Student Affairs Department for review. The department approves or rejects the request, and the approval status is recorded. After approval, Process 1.4 allows the organizer to publish, update, or cancel the activity. Finally, Process 1.5 receives students’ search and filter requests, retrieves published activity data, and returns the relevant activity information.
+
+![image2](level1-manage-activities.png)
