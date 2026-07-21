@@ -66,3 +66,56 @@ The student receives a registration confirmation.
 7a. The activity is full. The student is added to the waiting list.
 
 7b. Organizer approval is required. The reservation is recorded as pending until the organizer makes a decision.
+
+
+
+**Use Case 2: Create and Submit Activity**
+
+| Field | Description |
+|---|---|
+| Use Case Name | Create and Submit Activity |
+| Level | User goal |
+| Primary Actor | Activity Organizer |
+| Supporting Actor | Student Affairs Officer |
+| Stakeholders | The organizer needs to create a complete activity. Student Affairs needs sufficient information to review it. Students need accurate activity details after publication. |
+| Preconditions | The organizer is authorized to manage activities, and the required activity categories are available. |
+| Minimal Guarantee | An incomplete activity is not submitted or published. A saved draft remains available for editing. |
+| Success Guarantee | The activity is stored with a pending approval status and becomes available for Student Affairs review. |
+| Trigger | The organizer selects “Create New Activity.” |
+
+**Main Success Scenario**
+
+The organizer selects the option to create an activity.
+
+SAMS displays the activity form.
+
+The organizer enters the activity title, description, category, date, time, and location.
+
+The organizer defines the participant limit and registration period.
+
+The organizer enters the eligibility requirements and attendance method.
+
+The organizer indicates whether student registrations require approval.
+
+SAMS validates the entered information.
+
+The organizer submits the activity.
+
+The system saves the activity with a pending approval status.
+
+Student Affairs is notified that the activity requires review.
+
+The organizer receives submission confirmation.
+
+**Extensions**
+
+3a. The activity is virtual. The organizer provides virtual location information.
+
+7a. Required information is missing. The system identifies the missing fields.
+
+7b. The dates are invalid. The system requests corrected dates.
+
+8a. The organizer selects “Save as Draft.” The activity is stored without being submitted.
+
+10a. Student Affairs rejects the activity. The system records the reason and notifies the organizer.
+
