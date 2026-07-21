@@ -24,3 +24,13 @@ This process explains how activities are created and made available to students.
 Process 1.3 submits the activity to the Student Affairs Department for review. The department approves or rejects the request, and the approval status is recorded. After approval, Process 1.4 allows the organizer to publish, update, or cancel the activity. Finally, Process 1.5 receives students’ search and filter requests, retrieves published activity data, and returns the relevant activity information.
 
 ![image2](level1-manage-activities.png)
+
+**Process 2.0: Manage Registration and Waitlist**
+
+This process manages seat reservations, cancellations, and waiting-list entries. Process 2.1 receives a reservation or cancellation request from the student. For a reservation, Process 2.2 checks the activity’s eligibility requirements and registration deadline using information from the Activities data store.
+
+If the request is valid, Process 2.3 checks the current number of registrations against the activity capacity. Process 2.4 confirms the registration when a seat is available or sends an approval request to the Activity Organizer when organizer approval is required. If the activity is full, the student is added to the waiting list. All registration and waiting-list details are stored in the Registrations and Waitlist data store.
+
+Process 2.5 handles cancellations and updates the student’s status. When a cancellation creates an available seat, the system promotes an eligible student from the waiting list and updates the registration records and participant list.
+
+![image3](level1-registration-waitlist.png)
