@@ -35,7 +35,7 @@ Here we should write what is left to finish the project
 |---|---|---|
 | Ali | Gantt Chart, Prototyping | Gantt Chart, Prototyping |
 | Emad | DFDs | |
-| Adel | Use Case Model | |
+| Adel | Use Case Model | Use Case Model |
 | Mohammed | Activity Diagrams | |
 | Fahad | Class Diagram, Database Design | |
 
