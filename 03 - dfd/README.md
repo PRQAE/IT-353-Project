@@ -34,3 +34,13 @@ If the request is valid, Process 2.3 checks the current number of registrations 
 Process 2.5 handles cancellations and updates the student’s status. When a cancellation creates an available seat, the system promotes an eligible student from the waiting list and updates the registration records and participant list.
 
 ![image3](level1-registration-waitlist.png)
+
+**Process 3.0: Record Attendance and Issue Certificates**
+
+This process records student attendance and updates participation records. Process 3.1 receives attendance input through a QR code scanned by the student or through manual attendance data entered by the Activity Organizer.
+
+Process 3.2 checks the Registrations and Waitlist data store to confirm that the student has a valid registration for the activity. After validation, Process 3.3 records the attendance information in the Attendance Records data store.
+
+Process 3.4 uses the confirmed attendance to issue a participation certificate and update the student’s activity history, including participation hours and completed activities. These details are stored in the Certificates and Activity History data store. Process 3.5 then sends the attendance result or certificate to the student and provides an attendance summary to the Activity Organizer.
+
+![image4](level1-attendance-certificates.png)
