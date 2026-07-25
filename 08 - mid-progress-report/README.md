@@ -18,9 +18,11 @@ The team decided to split the seven deliverables across the five members based o
 Some team members had not used GitHub before and were unsure how to commit and push their own work. This was addressed by having the team lead walk them through the basic workflow (cloning the repository, adding changes, committing with a message, and pushing), so each member could start contributing their own tracked work.
 
 ## 4. Plan for the Next Period
-<!--
-Here we should write what is left to finish the project
--->
+- **Activity Diagrams** (Mohammed) — two UML activity diagrams covering registration and attendance/certificate processes.
+- **Class Diagram** (Fahad) — full UML class diagram with attributes, methods, and relationships between system entities.
+- **Database Design** (Fahad, supported by Mohammed) — relational schema derived from the class diagram, normalized to Third Normal Form.
+
+- Following that: a full consistency check across all deliverables, individual reflections, and final report assembly, per the Gantt schedule.
 
 
 ## 5. Individual Contributions So Far
