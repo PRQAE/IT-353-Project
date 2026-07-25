@@ -15,10 +15,7 @@
 The team decided to split the seven deliverables across the five members based on task scope and dependencies, rather than working on all tasks jointly. Each member was assigned clear ownership of one or two tasks (e.g. DFDs, Use Case Model, Class Diagram + Database) so work could progress in parallel once the shared groundwork was complete. This was chosen to keep the project on schedule given the number of deliverables and the shared deadline.
 
 ## 3. One Problem Encountered
-<!--
-Here we should write a problem that we faced
--->
-
+Some team members had not used GitHub before and were unsure how to commit and push their own work. This was addressed by having the team lead walk them through the basic workflow (cloning the repository, adding changes, committing with a message, and pushing), so each member could start contributing their own tracked work.
 
 ## 4. Plan for the Next Period
 <!--
