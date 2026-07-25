@@ -1,6 +1,12 @@
 # IT 353 — Mid-Project Progress Report
-**Team:** Ali, Emad, Adel, Mohammed, Fahad
-**Date submitted:** 26/07/2026
+**Team:** 
+- Ali Al-Ghamdi (S220040014)
+- Emad Al-Sifani (S240032704)
+- Adel Al-Otaibi (S240054457)
+- Mohammed Al-Otaibi (S230042360)
+- Fahad Al-Salmi (S240032977)
+
+**Date submitted:** 25/07/2026
 **Project:** Student Activities Management System (SAMS)
 
 ---
@@ -29,11 +35,11 @@ Some team members had not used GitHub before and were unsure how to commit and p
 
 | Member | Task(s) owned | What they've done so far |
 |---|---|---|
-| Ali | Gantt Chart, Prototyping | Gantt Chart, Prototyping |
-| Emad | DFDs | DFDs |
-| Adel | Use Case Model | Use Case Model |
-| Mohammed | Activity Diagrams | |
-| Fahad | Class Diagram, Database Design | |
+| Ali Al-Ghamdi (S220040014) | Gantt Chart, Prototyping | Gantt Chart, Prototyping |
+| Emad Al-Sifani (S240032704) | DFDs | DFDs |
+| Adel Al-Otaibi (S240054457) | Use Case Model | Use Case Model |
+| Mohammed Al-Otaibi (S230042360) | Activity Diagrams | Not yet started |
+| Fahad Al-Salmi (S240032977) | Class Diagram, Database Design | Not yet started |
 
 ## 6. GitHub Repository
 Repository: https://github.com/PRQAE/IT-353-Project.git
