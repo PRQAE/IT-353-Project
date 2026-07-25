@@ -6,10 +6,14 @@
 ---
 
 ## 1. Work Completed So Far
-<!--
-Here we should list what actually finished
--->
-
+- **Gantt Chart** — Full project schedule prepared, covering all phases from
+  kickoff through final submission, with durations and dependencies mapped between tasks.
+- **Prototyping** — Prototyping approach selected, and three low-fidelity
+  screens designed covering the core student-facing and organizer-facing flows.
+- **DFDs** — Context Diagram, Level-0 DFD, and three Level-1 DFDs completed, covering
+  activity management, registration/waitlist, and attendance/certificate processes.
+- **Use Case Model** — System actors identified (Student, Activity Organizer, Student
+  Affairs Officer), full use case diagram developed, and three use cases fully documented.
 
 ## 2. One Key Decision Made
 <!--
@@ -34,7 +38,7 @@ Here we should write what is left to finish the project
 | Member | Task(s) owned | What they've done so far |
 |---|---|---|
 | Ali | Gantt Chart, Prototyping | Gantt Chart, Prototyping |
-| Emad | DFDs | |
+| Emad | DFDs | DFDs |
 | Adel | Use Case Model | Use Case Model |
 | Mohammed | Activity Diagrams | |
 | Fahad | Class Diagram, Database Design | |
