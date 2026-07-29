@@ -12,3 +12,10 @@
 | Certificates | certificate_id INT, attendance_id INT, certificate_number VARCHAR(50), issue_date DATE, certificate_status VARCHAR(20) | PK: certificate_id; FK: attendance_id → Attendance; UNIQUE: attendance_id, certificate_number |
 | Achievements | achievement_id INT, student_id INT, activity_id INT NULL, achievement_title VARCHAR(120), description VARCHAR(255), earned_date DATE | PK: achievement_id; FK: student_id → Users; activity_id → Activities |
 | Notifications | notification_id INT, user_id INT, activity_id INT NULL, notification_type VARCHAR(30), message VARCHAR(255), sent_at DATETIME, is_read BOOLEAN | PK: notification_id; FK: user_id → Users; activity_id → Activities |
+
+&nbsp;
+**2 - Relational Schema**
+
+![image](database-erd-schema.png)
+
+&nbsp;
