@@ -1,1 +1,3 @@
 # Task 6 - Develop a UML Class Diagram including classes, attributes, methods, associations, multiplicities, and inheritance where appropriate [3 marks].
+
+![image](class-diagram.png)
