@@ -33,3 +33,20 @@ One attendance record may generate one certificate.
 One student may receive many notifications and achievements.
 
 A waitlisted student is represented by a registration with the status Waitlisted and a waitlist position.
+&nbsp;
+**4 - Important Constraints**
+role should be limited to Student, Organizer, or Student Affairs Officer.
+
+participant_limit must be greater than zero.
+
+The activity end date must be later than its start date.
+
+The registration deadline must be before the activity begins.
+
+A student cannot register for the same activity more than once.
+
+Each registration can have no more than one attendance record.
+
+Activity status may be Draft, Pending, Approved, Published, Cancelled, or Completed.
+
+Registration status may be Pending, Confirmed, Waitlisted, Rejected, or Cancelled.
