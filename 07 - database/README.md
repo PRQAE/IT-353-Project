@@ -19,3 +19,17 @@
 ![image](database-erd-schema.png)
 
 &nbsp;
+**3 - Main Relationships**
+One activity category can classify many activities, while each activity belongs to one category.
+
+One organizer can manage many activities, while each activity has one organizer.
+
+Students and activities have a many-to-many relationship resolved through the Registrations table.
+
+One registration may have one attendance record.
+
+One attendance record may generate one certificate.
+
+One student may receive many notifications and achievements.
+
+A waitlisted student is represented by a registration with the status Waitlisted and a waitlist position.
