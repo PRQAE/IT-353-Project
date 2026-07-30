@@ -50,3 +50,20 @@ Each registration can have no more than one attendance record.
 Activity status may be Draft, Pending, Approved, Published, Cancelled, or Completed.
 
 Registration status may be Pending, Confirmed, Waitlisted, Rejected, or Cancelled.
+
+&nbsp;
+*5 - Normalization**
+
+**First Normal Form**
+
+Each table contains atomic values, and no column stores repeating groups. For example, registrations are stored as separate rows rather than keeping several student IDs inside the Activities table.
+
+**Second Normal Form**
+
+Every non-key attribute depends on the whole primary key. Each table uses a single primary key, while the unique combination of activity_id and student_id prevents duplicate registrations.
+
+**Third Normal Form**
+
+Non-key attributes do not depend on other non-key attributes. Category information is stored in ActivityCategories instead of being repeated in Activities. User details are stored once in Users, while registration, attendance, certificate, achievement, and notification information is maintained in separate relations.
+
+The Student Activity Transcript does not need a separate table. It can be generated from confirmed attendance, activities, certificates, participation hours, and achievements. This avoids duplicated data and keeps the transcript accurate when participation records change.
