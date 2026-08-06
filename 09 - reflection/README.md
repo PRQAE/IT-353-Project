@@ -68,6 +68,52 @@ The approach also supports regular user feedback. Students can evaluate whether 
 
 ## Task 3 — Data Flow Diagrams (DFDs)
 
+
+**Context Diagram for the Student Activities Management System**
+
+![Task 3 diagram](context-diagram.png)
+
+The context diagram represents SAMS as one central process and shows its interaction with three external entities. Students send activity searches, reservations, cancellations, attendance information, and history requests. In return, they receive activity details, reservation updates, notifications, certificates, and activity transcripts.
+
+Activity organizers provide activity information, registration conditions, approvals, attendance records, and report requests. The system returns participant lists, registration updates, attendance results, and engagement reports.
+
+The Student Affairs Department manages categories, approves activities, requests institutional reports, and verifies activity transcripts. SAMS provides activities awaiting approval, university-wide participation statistics, reports, and student activity records. No internal processes or data stores are shown because the context diagram presents only the system boundary and its external data flows.
+
+**Level-0 DFD**
+
+![image1](03%20-%20dfd/level0-dfd.png)
+
+**Level-1 DFD**
+
+**Process 1.0: Manage Activities**
+
+This process explains how activities are created and made available to students. The Activity Organizer enters the activity details through Process 1.1, including the title, description, location, and other basic information. Process 1.2 adds the schedule, participant limit, registration period, eligibility rules, and attendance method. The activity information is then stored in the Activities data store.
+
+Process 1.3 submits the activity to the Student Affairs Department for review. The department approves or rejects the request, and the approval status is recorded. After approval, Process 1.4 allows the organizer to publish, update, or cancel the activity. Finally, Process 1.5 receives students’ search and filter requests, retrieves published activity data, and returns the relevant activity information.
+
+![image2](03%20-%20dfd/level1-manage-activities.png)
+
+**Process 2.0: Manage Registration and Waitlist**
+
+This process manages seat reservations, cancellations, and waiting-list entries. Process 2.1 receives a reservation or cancellation request from the student. For a reservation, Process 2.2 checks the activity’s eligibility requirements and registration deadline using information from the Activities data store.
+
+If the request is valid, Process 2.3 checks the current number of registrations against the activity capacity. Process 2.4 confirms the registration when a seat is available or sends an approval request to the Activity Organizer when organizer approval is required. If the activity is full, the student is added to the waiting list. All registration and waiting-list details are stored in the Registrations and Waitlist data store.
+
+Process 2.5 handles cancellations and updates the student’s status. When a cancellation creates an available seat, the system promotes an eligible student from the waiting list and updates the registration records and participant list.
+
+![image3](03%20-%20dfd/level1-registration-waitlist.png)
+
+**Process 3.0: Record Attendance and Issue Certificates**
+
+This process records student attendance and updates participation records. Process 3.1 receives attendance input through a QR code scanned by the student or through manual attendance data entered by the Activity Organizer.
+
+Process 3.2 checks the Registrations and Waitlist data store to confirm that the student has a valid registration for the activity. After validation, Process 3.3 records the attendance information in the Attendance Records data store.
+
+Process 3.4 uses the confirmed attendance to issue a participation certificate and update the student’s activity history, including participation hours and completed activities. These details are stored in the Certificates and Activity History data store. Process 3.5 then sends the attendance result or certificate to the student and provides an attendance summary to the Activity Organizer.
+
+![image4](03%20-%20dfd/level1-attendance-certificates.png)
+
+
 ## Task 4 — Use Case Model
 
 ## Task 5 — Activity Diagrams
