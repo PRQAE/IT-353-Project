@@ -35,6 +35,37 @@
 
 ## Task 2 — Prototyping
 
+**Selected Approach: Evolutionary Prototyping**
+
+Evolutionary prototyping is selected for the Student Activities Management System. The first prototype will contain the main functions and basic screen layouts. It can then be improved gradually after receiving feedback from students, activity organizers, and the Student Affairs Department.
+
+This approach is appropriate because SAMS includes several connected processes, such as activity registration, waiting lists, electronic attendance, notifications, certificates, and activity transcripts. Users may identify new needs after interacting with the early version. Evolutionary prototyping allows the development team to refine these functions without discarding the entire prototype.
+
+**Screen 1: Student Activities Browser**
+
+![image1](02%20-%20prototypes/screen1-student-activities-browser.png)
+
+This screen allows students to search and browse available activities. They can filter the results by category, campus, or date and select an activity to view its full details. The navigation bar also provides access to reservations, notifications, and participation history.
+
+**Screen 2: Activity Details and Reservation**
+
+![image2](02%20-%20prototypes/screen2-activity-details-reservation.png)
+
+This screen presents the information students need before making a reservation. It displays the activity schedule, location, eligibility requirements, registration deadline, attendance method, and remaining capacity. When the activity is full, the reservation button can be replaced with a “Join Waiting List” button.
+
+**Screen 3: Organizer Activity Management Dashboard**
+
+![image3](02%20-%20prototypes/screen3-organizer-dashboard.png)
+
+This screen allows organizers to create and manage activities from one location. They can monitor registration numbers, edit activity information, approve students when approval is required, record attendance, issue certificates, and generate reports.
+
+
+**Why Evolutionary Prototyping Is More Appropriate**
+
+Evolutionary prototyping is more suitable than throwaway prototyping because the SAMS prototype can become the foundation of the final system. The functions are closely related, and changes in one area may affect other areas. For example, revising the registration process may also require changes to capacity checks, waiting-list promotion, and notifications.
+
+The approach also supports regular user feedback. Students can evaluate whether activity discovery and registration are simple, while organizers can test whether participant and attendance management meets their needs. Student Affairs staff can later review approval and reporting functions. Each version can therefore become more accurate and usable while preserving the work completed in earlier versions.
+
 ## Task 3 — Data Flow Diagrams (DFDs)
 
 ## Task 4 — Use Case Model
