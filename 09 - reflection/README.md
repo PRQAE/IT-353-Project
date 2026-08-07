@@ -357,5 +357,14 @@ For my part, I was responsible for building the Gantt chart and developing the p
 ### Reflection — Adel
 
 ### Reflection — Mohammed
+During this project, I learned how to create UML Activity Diagrams and how to easily illustrate system processes. The biggest challenge I faced was ensuring the steps were in the correct order and then verifying that all the important decisions in the process were included. To overcome this, I went back to the project and checked the requirements multiple times, making sure the diagram content matched the system.
+
+I chose to use UML Activity Diagrams because they make the process easier to understand. I considered using a simple, standard diagram, but UML is more suitable for the software project and provides a better visual representation of the system.
+
+This project helped me improve my understanding of systems analysis and design. I learned about small details, such as verifying available spaces in an activity or checking student attendance. These details are important because they affect the entire system and how it works.
+
+I also learned a lot through teamwork with my team. We understood each other, shared ideas, and reviewed the work thoroughly before adding the report.
+
+If I had more time, I would have added more diagrams and explained the system better. I would have reviewed the project multiple times to ensure there were no missing steps and to identify any errors. This project helped me gain experience in UML, and through it, I understood the design process within the system and how the system works.
 
 ### Reflection — Fahad
