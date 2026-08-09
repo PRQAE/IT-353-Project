@@ -372,3 +372,9 @@ I also learned a lot through teamwork with my team. We understood each other, sh
 If I had more time, I would have added more diagrams and explained the system better. I would have reviewed the project multiple times to ensure there were no missing steps and to identify any errors. This project helped me gain experience in UML, and through it, I understood the design process within the system and how the system works.
 
 ### Reflection — Fahad
+
+During this project, one of the trickiest parts was deciding how to handle different user roles—Students, Activity Organizers, and Student Affairs Officers. At first, I considered creating separate tables for each role. However, I realized they shared almost all the same basic information, like emails, passwords, and campus details. Splitting them up would have made simple tasks, like sending notifications, unnecessarily complicated. To fix this, I chose a single Users table with a role column, keeping the design clean and easy to query.
+
+Another key decision was how to handle the Student Activity Transcript. I initially thought about creating a dedicated Transcripts table to store pre-calculated totals, like total hours and certificates earned. While that would make fetching transcripts slightly faster, it created a huge risk: if an attendance record was updated or a certificate was revoked, the transcript table could easily become outdated. I decided instead to build the transcript dynamically using database queries whenever it's requested. It costs a tiny bit more processing power, but it guarantees that the transcript is always 100% accurate without storing duplicate data.
+
+
